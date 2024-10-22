@@ -17,6 +17,8 @@
 		D07681D42CC7E13F0000BE06 /* CoreDataSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07681D32CC7E13F0000BE06 /* CoreDataSampleTests.swift */; };
 		D07681DE2CC7E13F0000BE06 /* CoreDataSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07681DD2CC7E13F0000BE06 /* CoreDataSampleUITests.swift */; };
 		D07681E02CC7E13F0000BE06 /* CoreDataSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07681DF2CC7E13F0000BE06 /* CoreDataSampleUITestsLaunchTests.swift */; };
+		D07681EE2CC7E2CD0000BE06 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07681EC2CC7E2CD0000BE06 /* ToDoListItem+CoreDataClass.swift */; };
+		D07681EF2CC7E2CD0000BE06 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07681ED2CC7E2CD0000BE06 /* ToDoListItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D07681D92CC7E13F0000BE06 /* CoreDataSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07681DD2CC7E13F0000BE06 /* CoreDataSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSampleUITests.swift; sourceTree = "<group>"; };
 		D07681DF2CC7E13F0000BE06 /* CoreDataSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D07681EC2CC7E2CD0000BE06 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D07681ED2CC7E2CD0000BE06 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		D07681B82CC7E13E0000BE06 /* CoreDataSample */ = {
 			isa = PBXGroup;
 			children = (
+				D07681F12CC7E3050000BE06 /*  ToDoListItem */,
 				D07681B92CC7E13E0000BE06 /* AppDelegate.swift */,
 				D07681BB2CC7E13E0000BE06 /* SceneDelegate.swift */,
 				D07681BD2CC7E13E0000BE06 /* ViewController.swift */,
@@ -128,6 +133,15 @@
 				D07681DF2CC7E13F0000BE06 /* CoreDataSampleUITestsLaunchTests.swift */,
 			);
 			path = CoreDataSampleUITests;
+			sourceTree = "<group>";
+		};
+		D07681F12CC7E3050000BE06 /*  ToDoListItem */ = {
+			isa = PBXGroup;
+			children = (
+				D07681EC2CC7E2CD0000BE06 /* ToDoListItem+CoreDataClass.swift */,
+				D07681ED2CC7E2CD0000BE06 /* ToDoListItem+CoreDataProperties.swift */,
+			);
+			path = " ToDoListItem";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +277,8 @@
 			files = (
 				D07681C42CC7E13E0000BE06 /* CoreDataSample.xcdatamodeld in Sources */,
 				D07681BE2CC7E13E0000BE06 /* ViewController.swift in Sources */,
+				D07681EE2CC7E2CD0000BE06 /* ToDoListItem+CoreDataClass.swift in Sources */,
+				D07681EF2CC7E2CD0000BE06 /* ToDoListItem+CoreDataProperties.swift in Sources */,
 				D07681BA2CC7E13E0000BE06 /* AppDelegate.swift in Sources */,
 				D07681BC2CC7E13E0000BE06 /* SceneDelegate.swift in Sources */,
 			);
